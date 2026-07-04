@@ -3,7 +3,7 @@
 1. Flowchart
 2. Challenges
 3. Assembly Code
-4. [Output](#4.Output)
+4. [Output](#4.-Output)
 5. Resources
 # 1. Flowchart
 1. Initialize environment[^3]
