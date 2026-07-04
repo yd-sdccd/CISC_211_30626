@@ -1,4 +1,13 @@
-## Encryption process and calculation
+Assignment solution
+
+Sections:
+1. Encryption and Calculation (Process)
+2. Decryption Process and Calculations (Process)
+3. XOR Encryption and Different Length Plaintext and Key (Challenges)
+
+---
+
+# Encryption process and calculation
 
 The chosen message for this exercise is `MIRA` and the key is `MESA`. 
 
@@ -57,7 +66,7 @@ Encrypted message in hexadecimal form:
 00 0C 01 00
 
 ---
-## Decryption process and calculations
+# Decryption process and calculations
 
 To decrypt the message, apply the XOR operation to the binary key and the binary encrypted message to receive the resulting decrypted message in binary form.
 
