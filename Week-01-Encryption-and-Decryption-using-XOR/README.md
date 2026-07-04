@@ -1,6 +1,6 @@
-Assignment solution
+## Assignment solution
 
-Sections:
+### Sections:
 1. Encryption and Calculation (Process)
 2. Decryption Process and Calculations (Process)
 3. XOR Encryption and Different Length Plaintext and Key (Challenges)
