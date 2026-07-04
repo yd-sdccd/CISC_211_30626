@@ -3,7 +3,8 @@
 1. Flowchart
 2. Challenges
 3. Assembly Code
-4. Resources
+4. [Output](#4.Output)
+5. Resources
 # 1. Flowchart
 1. Initialize environment[^3]
 2. Use Hello World example from the Introduction to Assembly Language lecture[^1] as structural basis for this assignment
@@ -59,7 +60,7 @@
 	2. This assembles your `.asm` program to `.o`.
 	3. It then links `[fileName]` into an executable
 5. Run program
-	1. `./[executable]`
+	1. bash `./build.sh w1_first_assembly`
 # 2. Challenges
 - Since this is my first time working with assembly, I really had to go line by line to understand what everything does. Without the example from the lecture that I could reference, this would've been a much longer process.
 - Having issue building .o, no file found in directory
@@ -89,12 +90,21 @@ section .data
 		
 	len equ $ - msg
 ```
+# 4. Output
+Text
+```
+I came,
+I saw,
+I conquered.
+```
 
-# Resources
+Screenshot
+![Assembly program output](./w2output1.png)
+# 5. Resources
 
 [^1]: Step 3: Create a Simple Assembly Program, Danish Khan  https://d-khan.github.io/cisc-courses/assembly/resources/assembly/
 [^2]: Creating and Using an Assembly Language Build Script, Danish Khan https://d-khan.github.io/cisc-courses/assembly/resources/assembly/
-[^3]: Assembly labs in Github Codespace, Danish Khan https://sdccd-edu.zoom.us/rec/play/SUaTNT011sxV2ECXMbAXiRqBF7Ed7uHiHCjTwb26AHGGTIBI9eydp3ZFk3IG5mOfLnAeiNy7mcNkjs-I.OgWNY1tLTpTyuFtI?accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&startTime=1782335209000&oldStyle=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fsdccd-edu.zoom.us%2Frec%2Fshare%2FKqZ6uGy7H35HhW8no_KazoRuKSE7CbRe8-yWGvlJGc_1tB8CioIYEuGX6idIp-kX.jyxpzAzRfszsojBg%3FstartTime%3D1782335209000
+[^3]: https://sdccd-edu.zoom.us/rec/play/SUaTNT011sxV2ECXMbAXiRqBF7Ed7uHiHCjTwb26AHGGTIBI9eydp3ZFk3IG5mOfLnAeiNy7mcNkjs-I.OgWNY1tLTpTyuFtI?accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&startTime=1782335209000&oldStyle=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fsdccd-edu.zoom.us%2Frec%2Fshare%2FKqZ6uGy7H35HhW8no_KazoRuKSE7CbRe8-yWGvlJGc_1tB8CioIYEuGX6idIp-kX.jyxpzAzRfszsojBg%3FstartTime%3D1782335209000
 
 Additional
 1.  https://csapp.cs.cmu.edu/3e/docs/gdbnotes-x86-64.pdf
