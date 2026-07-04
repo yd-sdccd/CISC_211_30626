@@ -3,9 +3,9 @@
 1. Flowchart
 2. Challenges
 3. Assembly Code
-4. [Output](#4.-Output)
+4. [Output](#Output)
 5. Resources
-# 1. Flowchart
+# Flowchart
 1. Initialize environment[^3]
 2. Use Hello World example from the Introduction to Assembly Language lecture[^1] as structural basis for this assignment
 3. Create file: nano w1_first_assembly.asm
@@ -61,13 +61,13 @@
 	3. It then links `[fileName]` into an executable
 5. Run program
 	1. bash `./build.sh w1_first_assembly`
-# 2. Challenges
+# Challenges
 - Since this is my first time working with assembly, I really had to go line by line to understand what everything does. Without the example from the lecture that I could reference, this would've been a much longer process.
 - Having issue building .o, no file found in directory
 	- had to create and save file as .asm
 - Having issue trying to move my work from my working codespace to the class repository for sharing:
 	- I learned how to package my assignment, download, and then upload
-# 3. Assembly Code
+# Assembly Code
 ```
 section .text
 	global _start
@@ -90,7 +90,7 @@ section .data
 		
 	len equ $ - msg
 ```
-# 4. Output
+# Output
 Text
 ```
 I came,
@@ -100,7 +100,7 @@ I conquered.
 
 Screenshot
 ![Assembly program output](./w2output1.png)
-# 5. Resources
+# Resources
 
 [^1]: Step 3: Create a Simple Assembly Program, Danish Khan  https://d-khan.github.io/cisc-courses/assembly/resources/assembly/
 [^2]: Creating and Using an Assembly Language Build Script, Danish Khan https://d-khan.github.io/cisc-courses/assembly/resources/assembly/
