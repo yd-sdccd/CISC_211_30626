@@ -39,6 +39,7 @@ segment .bss
         result resd 1
 ```
 ![[Pasted image 20260710115220.png]]
+![midterm_q1](midterm_q1.png)
 ### Q2
 Simplify `Y = a.b + a'.b + a.b` with a kmap table
 
@@ -97,3 +98,4 @@ section .data
         even_len equ $ - even_msg
 ```
 ![[Pasted image 20260710115445.png]]
+![midterm_q3](midterm_q3.png)
