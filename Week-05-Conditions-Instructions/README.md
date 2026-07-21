@@ -68,7 +68,7 @@ exit:
     int 0x80
 	
 segment .bss
-        tmp resb 1
+    tmp resb 1
 
 section .data
     space dd 10
@@ -118,13 +118,11 @@ segment .bss
         largest resb 2
 ```
 # Output
-Text
-```
-
-```
-
-Screenshot
-![Assembly program output](./w#output#.png)
+### Task 1: Even Num Gen
+![Assembly program output](./w5output1.png)
+![Assembly program output](./w5output2.png)
+### Task 2: Find largest
+![Assembly program output](./w5output3.png)
 # Challenges
 
 # Resources
