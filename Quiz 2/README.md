@@ -8,7 +8,7 @@ _start:
 	mov eax, [x]
 	mov ebx, [y]
 	mov ecx, [z]
-    call math_add:
+    call math_add
 
     mov eax, 1
     mov ebx, 0
@@ -29,3 +29,5 @@ segment .bss
     result resd 1
 	
 ```
+
+![Out](output_quiz2.png)
