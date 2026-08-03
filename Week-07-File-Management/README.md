@@ -36,17 +36,10 @@ quotes.txt
 
 Before this task I hadn't really considered the placement of start until I saw the examples in the file management lecture. Most of this program is the example's stitched together.
 
-<img src="week7_flowchart.png" alt="Flowchart" width="400">
+<img src="w7_flowchart.png" alt="Flowchart" width="800">
 
 ## Code
-quotes.txt
-```txt
-_To be, or not to be, that is the question._
-
-_A fool thinks himself to be wise, but a wise man knows himself to be a fool._
-```
-
-w7_file_management
+w7_file_management.asm
 ```asm
 section .data
 	filename db 'quotes.txt', 0h
@@ -118,7 +111,7 @@ section .bss
 	
 ```
 
-<img src="w7_output#.png" alt="Output" width="300">
+<img src="w7_output.png" alt="Output" width="800">
 ## Challenges
 I got the errors 
 ./w7_file_management.asm:5: warning: character constant too long [-w+other] ./w7_file_management.asm:5: warning: byte data exceeds bounds [-w+number-overflow]
